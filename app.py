@@ -18,4 +18,4 @@ def lwemail():
 def lwphone():
 	return "My Phone Number Is 7404650169"
 
-app.run(host="0.0.0.0"
+app.run(host="0.0.0.0", port=5000)
