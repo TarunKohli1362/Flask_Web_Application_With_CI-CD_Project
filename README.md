@@ -40,7 +40,7 @@ To add tests:
 
 ## 🐳 Docker Details
 
-### 📄 Dockerfile Summary
+## 📄 Dockerfile Summary
 
 ```Dockerfile
 FROM redhat/ubi8
@@ -61,7 +61,9 @@ Edit
 docker run -d -p 5000:5000 --name os1_new tarunkohli/wordpress:01
 Ensure port 5000 is not already in use.
 
-### 🌐 **API Endpoints**
+
+
+## 🌐 API Endpoints
 Route	Description	Sample Output
 /info	Returns developer location	"I Am LW From India"
 /name	Returns developer name	"My Name Is TARUN KOHLI"
