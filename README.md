@@ -61,14 +61,14 @@ Edit
 docker run -d -p 5000:5000 --name os1_new tarunkohli/wordpress:01
 Ensure port 5000 is not already in use.
 
-
-
-## **🌐 API Endpoints**
+## 🌐 API Endpoints
 Route	Description	Sample Output
-/info	Returns developer location	"I Am LW From India"
-/name	Returns developer name	"My Name Is TARUN KOHLI"
-/email	Returns developer email address	"My Email ID Is tarunkohli5555@gmail.com"
-/phone	Returns developer phone number	"My Phone Number Is 7404650169"
+| Route     | Description                   | Sample Output                                     |
+|-----------|-------------------------------|---------------------------------------------------|
+| `/info`   | Returns developer location    | `"I Am LW From India"`                            |
+| `/name`   | Returns developer name        | `"My Name Is TARUN KOHLI"`                        |
+| `/email`  | Returns developer email       | `"My Email ID Is tarunkohli5555@gmail.com"`       |
+| `/phone`  | Returns developer phone number| `"My Phone Number Is 7404650169"`                 |
 
 Example:
 bash
@@ -76,7 +76,7 @@ Copy
 Edit
 curl http://localhost:5000/info
 
-## **📁 Project Structure**
+## 📁 Project Structure
 bash
 Copy
 Edit
@@ -87,7 +87,7 @@ Flask_Web_Application_With_CI-CD_Project/
 ├── README.md       # Project documentation
 └── Jenkinsfile     # (Optional) Jenkins pipeline script
 
-## **✍️ Author**
+## ✍️ Author
 Tarun Kohli
 📧 Email: tarunkohli5555@gmail.com
 📞 Phone: 7404650169
