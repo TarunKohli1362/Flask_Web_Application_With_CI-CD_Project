@@ -16,29 +16,28 @@ This is a simple Flask web application designed to demonstrate basic CI/CD workf
 ## 📁 Project Structure
 
 Flask_Web_Application_With_CI-CD_Project/
-│
+
 ├── Dockerfile
 ├── app.py
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
 ## 🚀 How to Run This Project
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/Flask_Web_Application_With_CI-CD_Project.git
 cd Flask_Web_Application_With_CI-CD_Project
-2. Build the Docker Image
+
+### 2. Build the Docker Image
 bash
 Copy
 Edit
 docker build -t tarunkohli/wordpress:01 .
+
 3. Run the Docker Container
 Make sure port 5000 is free before running:
 
